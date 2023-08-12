@@ -1,17 +1,16 @@
 {
-  "name": "cms",
+  "name": "cms-test-build",
   "version": "1.0.0",
-  "description": "cms creation test for zen blog",
-  "main": "index.js",
+  "description": "Zenblog Template CMS creation",
+  "main": ".eleventy.js",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy"
   },
   "keywords": [],
-  "author": "Victor Agu",
+  "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
-  },
-  "devDependencies": {}
+  }
 }
