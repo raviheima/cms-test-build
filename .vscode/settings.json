@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        ".njk": "html"
+    },
+    "json.schemas": [
+
+    ],
+    "emmet.includeLanguages": {
+        ".njk": "html"
+    },
+    "emmet.preferences": {
+
+    },
+    "emmet.excludeLanguages": []
+}
