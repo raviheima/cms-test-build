@@ -5,11 +5,9 @@
     "json.schemas": [
 
     ],
-    "emmet.includeLanguages": {
-        ".njk": "html"
-    },
     "emmet.preferences": {
 
     },
-    "emmet.excludeLanguages": []
+    "emmet.excludeLanguages": [],
+    "npm-scripts.showStartNotification": false
 }

@@ -35,7 +35,7 @@
       <a href="index" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>ZenBlog</h1>
+        <h1>AmoledBytes</h1>
       </a>
 
       <nav id="navbar" class="navbar">
@@ -44,7 +44,7 @@
           <li><a href="/single-post">Single Post</a></li>
           <li class="dropdown"><a href="/category"><span>Categories</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="/search-result">Search Result</a></li>
+              <li><a href="/articles">Search Result</a></li>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
@@ -76,7 +76,7 @@
 
         <!-- ======= Search Form ======= -->
         <div class="search-form-wrap js-search-form-wrap">
-          <form action="search-result.html" class="search-form">
+          <form action="articles" class="search-form">
             <span class="icon bi-search"></span>
             <input type="text" placeholder="Search" class="form-control">
             <button class="btn js-search-close"><span class="bi-x"></span></button>
@@ -100,45 +100,57 @@
       <div class="container-md" data-aos="fade-in">
         <div class="row">
           <div class="col-12">
-            <div class="swiper sliderFeaturedPosts">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <a href="single-post" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/post-slide-1.jpg');">
-                    <div class="img-bg-inner">
-                      <h2>The Best Homemade Masks for Face (keep the Pimples Away)</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="swiper-slide">
-                  <a href="single-post" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/post-slide-2.jpg');">
-                    <div class="img-bg-inner">
-                      <h2>17 Pictures of Medium Length Hair in Layers That Will Inspire Your New Haircut</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="swiper-slide">
-                  <a href="single-post" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/post-slide-3.jpg');">
-                    <div class="img-bg-inner">
-                      <h2>13 Amazing Poems from Shel Silverstein with Valuable Life Lessons</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="swiper-slide">
-                  <a href="single-post" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/post-slide-4.jpg');">
-                    <div class="img-bg-inner">
-                      <h2>9 Half-up/half-down Hairstyles for Long and Medium Hair</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="custom-swiper-button-next">
+            <!--start of featured posts slider loop-->
+                   <div class="swiper sliderFeaturedPosts">
+                    <div class="swiper-wrapper"><div class="swiper-slide">
+                        <a href="/articles/the-art-of -web/" class="img-bg d-flex align-items-end" style="background-image: url(' /assets/img/post-landscape-2.jpg ');">
+                          <div class="img-bg-inner">
+                            <h2>Unleashing Creativity The Art of Web Development</h2>
+                            <p>In this article, we delve into the captivating blend of technology and art in the realm of web development. As a web developer and software enthusiast, you&#39;ll discover how coding and design create a symphony of creativity. From crafting user-centric experiences to bridging the gap between art and technology, we explore how being an indie hacker can lead to both innovation and financial success.</p>
+                          </div>
+                        </a> 
+                      </div> 
+                      <!--end of featured post slider loop--><div class="swiper-slide">
+                        <a href="/articles/Exploring the Wonders of Underwater Caves/" class="img-bg d-flex align-items-end" style="background-image: url(' /assets/img/post-landscape-1.jpg ');">
+                          <div class="img-bg-inner">
+                            <h2>Exploring the Wonders of Underwater Caves</h2>
+                            <p>Delve into the mesmerizing world of underwater caves and discover the unique ecosystems they house, along with the challenges faced by cave divers.</p>
+                          </div>
+                        </a> 
+                      </div> 
+                      <!--end of featured post slider loop--><div class="swiper-slide">
+                        <a href="/articles/The Rise of Sustainable Fashion Trends and Innovations/" class="img-bg d-flex align-items-end" style="background-image: url(' /assets/img/post-landscape-3.jpg ');">
+                          <div class="img-bg-inner">
+                            <h2>The Rise of Sustainable Fashion: Trends and Innovations</h2>
+                            <p>Uncover the latest trends in sustainable fashion, from eco-friendly fabrics to innovative production methods, as the industry takes strides towards a greener future.</p>
+                          </div>
+                        </a> 
+                      </div> 
+                      <!--end of featured post slider loop--><div class="swiper-slide">
+                        <a href="/articles/Mars Colonization Challenges and Breakthroughs/" class="img-bg d-flex align-items-end" style="background-image: url(' /assets/img/post-landscape-2.jpg ');">
+                          <div class="img-bg-inner">
+                            <h2>Mars Colonization: Challenges and Breakthroughs</h2>
+                            <p>Dive into the complexities of colonizing Mars, exploring the technological advancements that are making this distant dream a potential reality.</p>
+                          </div>
+                        </a> 
+                      </div> 
+                      <!--end of featured post slider loop--><div class="swiper-slide">
+                        <a href="/articles/Artificial Intelligence in Healthcare Revolutionizing Patient Care/" class="img-bg d-flex align-items-end" style="background-image: url(' /assets/img/post-landscape-4.jpg ');">
+                          <div class="img-bg-inner">
+                            <h2>Artificial Intelligence in Healthcare: Revolutionizing Patient Care</h2>
+                            <p>Learn how AI is reshaping the healthcare landscape, from personalized treatment plans to disease detection, and its impact on improving patient outcomes.</p>
+                          </div>
+                        </a> 
+                      </div> 
+                      <!--end of featured post slider loop--><div class="swiper-slide">
+                        <a href="/articles/culinary adventure/" class="img-bg d-flex align-items-end" style="background-image: url(' /assets/img/post-landscape-5.jpg ');">
+                          <div class="img-bg-inner">
+                            <h2>Culinary Adventures: Exploring Global Street Food</h2>
+                            <p>Embark on a gastronomic journey through the streets of various countries, sampling delectable street food that reflects the unique flavors and cultures of each region.</p>
+                          </div>
+                        </a> 
+                      </div> 
+                      <!--end of featured post slider loop--><div class="custom-swiper-button-next">
                 <span class="bi-chevron-right"></span>
               </div>
               <div class="custom-swiper-button-prev">
