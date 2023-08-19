@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "public/assets/articles"
+public_folder: "/assets/articles"
+collections:
+ - name: "articles"
+  label: "Articles"
+  folder: "src/articles"
+  create: true
+  slug:  "{{year}}-{{month}}-{{day}}-{{slug}}"
+  fields:
+    - { label: "title", name: "title", widget: "string" }
+    - { label: "Description", name: "Description", widget: "string" }
+    - { label: "Author", name: "author", widget: "string" }
+    - { label: "Date", name: "date", widget: "datetime" }
+    - { label: "Tags", name: "tags", widget: "list", default: {"post"} }  
+    - { label: "Featured Image", name: "image", widget: "image" }
+    - { label: "Image caption", name: "imageAlt", widget: "string" } 
+    - { label: "Author", name: "author", widget: "string" }
+    - { label: "Body", name: "body", widget: "markdown" }
+
