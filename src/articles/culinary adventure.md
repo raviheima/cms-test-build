@@ -1,12 +1,16 @@
 ---
-title:  "Culinary Adventures: Exploring Global Street Food"
+title: 'Culinary Adventures: Exploring Global Street Food'
+description: >-
+  Embark on a gastronomic journey through the streets of various countries,
+  sampling delectable street food that reflects the unique flavors and cultures
+  of each region.
 author: Victor
-authorimg: /assets/img/person-7.jpg
-date: 2023-12-18
-tags: ["featured","post" ]
+date: '2023-08-02'
+tags:
+  - featured
+  - post
 image: /assets/img/post-landscape-5.jpg
 imageAlt: This is a test
-description: Embark on a gastronomic journey through the streets of various countries, sampling delectable street food that reflects the unique flavors and cultures of each region.
 ---
 
  
