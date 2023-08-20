@@ -7,7 +7,7 @@ author: Victor
 date: '2023-08-20T08:14:51+01:00'
 tags:
   - featured
-image: /assets/img/74c7eaed-fa3f-431c-92f6-1c326fa3bab3.jpg
+image: /assets/img/post-landscape-3.jpg
 imageAlt: pretty lanscape
 ---
 # a great big world first article
