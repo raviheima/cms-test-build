@@ -97,7 +97,7 @@ layout: 'base.njk'
                 <div class="trending">
                   <h3>Trending</h3>
                   <ul class="trending-post">
-                    {%- for post in collections.new -%}
+                    {%- for post in collections.new | reverse -%}
                     {%- if loop.index <=5 -%}
                     <li>
                       <a href="{{post.url}}">
