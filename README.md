@@ -1,2 +1,2 @@
 # cms-test-build
- Zenblog Template CMS creation
+ Blog Template CMS creation
