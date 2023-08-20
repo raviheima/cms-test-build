@@ -1,12 +1,16 @@
 ---
-title:  "Artificial Intelligence in Healthcare: Revolutionizing Patient Care"
+title: 'Artificial Intelligence in Healthcare: Revolutionizing Patient Care'
+description: >-
+  Learn how AI is reshaping the healthcare landscape, from personalized
+  treatment plans to disease detection, and its impact on improving patient
+  outcomes.
 author: Victor
-authorimg: /assets/img/person-7.jpg
-date: 2023-11-08
-tags: ["post" ,"featured"]
+date: '2023-08-06'
+tags:
+  - post
+  - featured
 image: /assets/img/post-landscape-4.jpg
 imageAlt: This is a test
-description:  Learn how AI is reshaping the healthcare landscape, from personalized treatment plans to disease detection, and its impact on improving patient outcomes.
 ---
 
  
