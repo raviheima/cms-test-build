@@ -1,12 +1,19 @@
 ---
 title: Unleashing Creativity The Art of Web Development
+description: >-
+  In this article, we delve into the captivating blend of technology and art in
+  the realm of web development. As a web developer and software enthusiast,
+  you'll discover how coding and design create a symphony of creativity. From
+  crafting user-centric experiences to bridging the gap between art and
+  technology, we explore how being an indie hacker can lead to both innovation
+  and financial success.
 author: Victor
-authorimg: /assets/img/person-7.jpg
-date: 2023-08-12
-tags: ["featured", "post" ]
+date: '2023-08-01'
+tags:
+  - featured
+  - post
 image: /assets/img/post-landscape-2.jpg
 imageAlt: This is a test
-description: In this article, we delve into the captivating blend of technology and art in the realm of web development. As a web developer and software enthusiast, you'll discover how coding and design create a symphony of creativity. From crafting user-centric experiences to bridging the gap between art and technology, we explore how being an indie hacker can lead to both innovation and financial success.
 ---
 
  
