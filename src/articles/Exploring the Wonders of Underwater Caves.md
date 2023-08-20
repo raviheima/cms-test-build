@@ -1,12 +1,15 @@
 ---
 title: Exploring the Wonders of Underwater Caves
+description: >-
+  Delve into the mesmerizing world of underwater caves and discover the unique
+  ecosystems they house, along with the challenges faced by cave divers.
 author: Victor
-authorimg: /assets/img/person-7.jpg
-date: 2023-08-20
-tags: ["featured", "post" 	]
+date: '2023-08-05'
+tags:
+  - featured
+  - post
 image: /assets/img/post-landscape-1.jpg
 imageAlt: This is a test
-description: Delve into the mesmerizing world of underwater caves and discover the unique ecosystems they house, along with the challenges faced by cave divers.
 ---
 
  
