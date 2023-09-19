@@ -8,9 +8,7 @@ tags:
 image: /assets/img/post-landscape-4.jpg
 imageAlt: quick text
 ---
-```
 how to delete facebook account
-```
 
 1. go to settings 
 
