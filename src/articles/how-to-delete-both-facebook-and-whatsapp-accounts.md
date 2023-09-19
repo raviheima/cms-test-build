@@ -2,7 +2,7 @@
 title: how to delete both facebook and whatsapp accounts
 description: step by step guide to deleting both facebook and whatsapp account
 author: Victor Agu
-date: '2023-09-19'
+date: '2023-09-20'
 tags:
   - post
 image: /assets/img/post-landscape-4.jpg
