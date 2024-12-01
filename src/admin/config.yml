@@ -3,6 +3,7 @@ backend:
   branch: main
 media_folder: "public/assets/img"
 public_folder: "/assets/img"
+publish_mode: editorial_workflow
 
 collections:
   - name: "articles"
